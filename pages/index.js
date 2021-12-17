@@ -69,7 +69,6 @@ export default function Home() {
                         letterSpacing: "8px",
                     }}
                 >
-                    The Prime Ape Planet
                 </div>
                 <div
                     style={{
@@ -149,7 +148,7 @@ export default function Home() {
                     max="5"
                     type="number"
                 />
-                <div style={{ color: "white", fontSize: "30px", fontWeight: '500', }}>NFT(s)</div>
+                <div style={{ color: "white", fontSize: "30px", fontWeight: '500', }}>Prime Ape(s)</div>
             </div>
             <button
                 onClick={() => {
@@ -171,7 +170,7 @@ export default function Home() {
                 }}
             >
                 {active
-                    ? `Mint ${value} NFT(s) for ${
+                    ? `Mint ${value} Prime Ape(s) for ${
                         (value * 0.25).toFixed(2)
                     } ETH + Network gas fees`
                     : "Wallet is not connected"}
